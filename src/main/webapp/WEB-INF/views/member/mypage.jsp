@@ -497,10 +497,11 @@
                                             <div class="col-lg-8 text-end">
                                                 <ul class="nav nav-pills d-inline-flex text-center mb-5">
                                                     <li class="nav-item">
-                                                        <a class="d-flex m-2 py-2 bg-light rounded-pill ${tab eq '1' ? 'active' : ''}"
-                                                            href="/member/mypage?tab=1">
+                                                        <button
+                                                            class="d-flex m-2 py-2 bg-light rounded-pill ${tab eq '1' ? 'active' : ''}"
+                                                            id="recipeBtn" data-tab="1">
                                                             <span class="text-dark" style="width: 130px;">레시피 리스트</span>
-                                                        </a>
+                                                        </button>
                                                     </li>
                                                     <li class="nav-item">
                                                         <a class="d-flex py-2 m-2 bg-light rounded-pill ${tab eq '2' ? 'active' : ''}"
